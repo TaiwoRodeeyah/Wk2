@@ -1,0 +1,23 @@
+body {background-color: lightpink;
+}
+
+h1{color: black;
+background-color: lightsalmon; } 
+
+main> section p{
+    color: antiquewhite;
+}
+
+main> p{
+    color: aquamarine;
+}
+
+main p{
+    color: purple;
+}
+p{
+    color: brown;
+}
+h2, h3{
+    background-color: bisque;
+}

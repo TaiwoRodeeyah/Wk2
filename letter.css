@@ -1,0 +1,10 @@
+h2{
+    color: crimson;
+}
+h2+p{
+    background-color: magenta;
+}
+em, strong{
+    color: blue;
+}
+

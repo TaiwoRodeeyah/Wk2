@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <main>
+        <h1>create account</h1>
+        
+        <form>
+            
+            <ul>
+            <li> 
+                <label for="fname">full name</label>
+                 <input type="text" name="fnname" id="fname" placeholder="Enter Full name">
+            </li> 
+            <li>
+                <label for="dob">date of birth</label> 
+                <input type="date" name="dob" id="dob">
+            </li>
+            <li> 
+                 <label for="address">home address</label>
+                 <input type="text" name="address" id="address">
+            </li>
+            <li>
+                <p>gender</p>
+                <input type="radio" name="Gender" id="Female">
+                <label for="Female">female</label>
+
+                <input type="radio" name="Gender" id="Male">
+                <label for="Male">male</label>
+
+                <input type="radio" name="Gender" id="none" checked>
+                <label for="none">none</label>
+            </li> <br>
+            <li><label for="Email">email</label>
+                <input type="email" name="Email address" id="Email" placeholder="Enter your email address"> required
+            </li> 
+            <li>
+                <p>marital status</p>
+                <input type="radio" name="Marital status" id="Married">
+                <label for="Married">married</label> 
+
+                <input type="radio" name="Marital status" id="Divorced">
+                <label for="Divorced">divorced</label> 
+
+                <input type="radio" name="Marital status" id="Widowed" checked> 
+                <label for="Widowed">widowed</label> 
+
+                <input type="radio" name="Marital status" id="Single">
+                <label for="Single">single</label>
+            </li> <br>
+            <li> 
+               <span>state of origin</span>
+                
+                <select>
+                    <optgroup label="South West">
+                        <option value="lg">lagos</option>
+                        <option value="og">ogun</option>
+                        <option value="os">osun</option>
+                        <option value="ek">ekiti</option>
+                        <option value="oy">oyo</option>
+                    </optgroup>
+                    <optgroup label="North Central">
+                        <option value="bn">benue</option>
+                        <option value="kg">kogi</option>
+                        <option value="kw">kwara</option>
+                        <option value="ni">niger</option>
+                        <option value="pl">plateau</option>
+                    </optgroup>
+                    <optgroup label="South East">
+                        <option value="ab">abia</option>
+                        <option value="an">anambra</option>
+                        <option value="eb">ebonyi</option>
+                        <option value="en">enugu</option>
+                        <option value="im">imo</option>
+                    </optgroup>
+                </select>
+            </li>
+            <li>
+                <label for="Phone">phone number</label>
+                <input type="number" name="Phone number" id="Phone number" placeholder="09034567890"> 
+            </li>
+            <li>
+                <input type="checkbox" name="accept" id="accept">
+                <label for="accept">accept terms &amp; conditions </label>
+            </li>
+            <li>
+                <input type="checkbox" name="accept2" id="accept2">
+                <label for="accept2">subscribe to our weekly newsletter</label>
+            </li>
+            <li>
+                <input type="submit" value="subscribe">
+            </li>
+
+        </ul>
+
+
+
+        </form>
+        
+    </main>
+</body>
+</html>
