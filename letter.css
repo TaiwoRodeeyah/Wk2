@@ -2,9 +2,14 @@ h2{
     color: crimson;
 }
 h2+p{
-    background-color: magenta;
+    background-color: blue;
 }
-em, strong{
+li *{
+    background-color: blue;
+}
+em,strong{
     color: blue;
 }
-
+dd *{
+    background-color: cyan;
+}
